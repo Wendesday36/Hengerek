@@ -14,6 +14,7 @@ public class Cso extends TomorHenger{
         this.falvastagsag = falvastagsag;
     }
     
+    @Override
     public double terfogat(){
         return 0;
     }
