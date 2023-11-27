@@ -3,6 +3,7 @@ package hengerek;
 import model.TomorHenger;
 import model.Henger;
 import java.util.List;
+import model.Cso;
 
 public class Henger_Program {
 
@@ -16,7 +17,7 @@ public class Henger_Program {
     
     public   void run(){
         lista();
-        int db = Henger.getHenger();
+        int db = Henger.getHengerDarab();
         double atlagV = atlagTerfogat();
         
         
@@ -27,7 +28,7 @@ public class Henger_Program {
        hengerek = new Henger[4];
        hengerek[0]= new TomorHenger(4,8);
        hengerek[1] = new TomorHenger(2,8);
-       hengerek[2] = new TomorHenger(7,3);
+       hengerek[2] = new Cso(1,1,.5);
        hengerek[3] = new TomorHenger(5,9);
        
         for (Henger h : hengerek) {
