@@ -1,19 +1,15 @@
-package hengerek;
+package model;
 
-public class Henger {
-    private static int hengerDarab;
+public abstract class Henger {
+    private int hengerDarab;
     private double sugar, magassag;
 
     public Henger(double sugar, double magassag) {
         this.sugar = sugar;
         this.magassag = magassag;
     }
-    
-    public double terfogat(){
-        return sugar*2;
-    }
 
-    public static int getHengerDarab() {
+    public int getHengerDarab() {
         return hengerDarab;
     }
 
@@ -24,9 +20,15 @@ public class Henger {
     public double getMagassag() {
         return magassag;
     }
+    public double terfogat(){
+        
+        return Math.PI*sugar*sugar*magassag;
+        
+    }
 
     @Override
     public String toString() {
-        return "Henger{" + "sugar=" + sugar + ", magassag=" + magassag + '}';
+        return "Henger{" + "hengerDarab=" + hengerDarab + ", sugar=" + sugar + ", magassag=" + magassag + '}';
     }
+    
 }
