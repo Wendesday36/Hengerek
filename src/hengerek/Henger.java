@@ -10,7 +10,7 @@ public class Henger {
     }
     
     public double terfogat(){
-        return 0;
+        return sugar*2;
     }
 
     public static int getHengerDarab() {
