@@ -1,4 +1,4 @@
-package model;
+package hengerek;
 
 public class Cso extends TomorHenger {
 

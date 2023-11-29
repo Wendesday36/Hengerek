@@ -1,4 +1,4 @@
-package model;
+package hengerek;
 
 public abstract class Henger {
     private int hengerDarab;

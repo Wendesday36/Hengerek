@@ -1,5 +1,7 @@
 
-package model;
+package hengerek;
+
+import hengerek.Henger;
 
 public class TomorHenger extends Henger{
     private double fajsuly;

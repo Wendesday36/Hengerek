@@ -1,9 +1,6 @@
 package hengerek;
 
-import model.TomorHenger;
-import model.Henger;
 import java.util.List;
-import model.Cso;
 
 public class Henger_Program {
 
