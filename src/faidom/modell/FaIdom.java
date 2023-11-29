@@ -2,7 +2,7 @@ package faidom.modell;
 
 public abstract class FaIdom {
 
-    private double fajsuly = 0.8;
+    private static final double FAJSULY = 0.8;
 
 //    public double getTerfogat() {
 //        return terfogat;
@@ -12,12 +12,12 @@ public abstract class FaIdom {
 
     public double suly() {
 
-        return terfogat() * fajsuly;
+        return terfogat() * FAJSULY;
     }
 
     @Override
     public String toString() {
-        return "FaIdom{" + "fajsuly=" + fajsuly + '}';
+        return "FaIdom{" + "fajsuly=" + FAJSULY + '}';
     }
 
 }
